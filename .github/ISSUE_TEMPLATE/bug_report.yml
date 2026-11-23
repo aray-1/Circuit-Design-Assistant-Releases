@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Circuit Design Assistant does not work as it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The quickest way is **Help > Report an Issue** in the app:
+        it fills in the version and your system for you.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you were using (Help > Report an Issue shows it), e.g. 0.1.0.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What went wrong? Include any error message shown in the app or the terminal.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make it happen again? Attach the .cida project if you can share it.
+      placeholder: |
+        1. Place a Counter ...
+        2. Click To SV ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version and other details (filled in by the app).

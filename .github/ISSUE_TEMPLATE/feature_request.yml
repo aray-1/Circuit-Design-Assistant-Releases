@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a new feature or an improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you are using, e.g. 0.1.0.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you would like
+      description: The feature or change, and what it should do.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Why it would help
+      description: The problem it solves or the work it saves.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Filled in by the app.
