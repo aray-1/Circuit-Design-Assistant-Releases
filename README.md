@@ -5,7 +5,7 @@ Design SystemVerilog by drawing it: a block-diagram editor that generates RTL.
 ## Install (Windows)
 
 1. Download the latest **`CircuitDesignAssistant-Setup-vX.Y.Z.exe`** from the
-   [Releases](../../releases) page (or from the `releases/` folder in this repo).
+   [Releases](../../releases) page.
 2. Run it. It installs for your user only — **no administrator rights needed**.
 3. Choose whether to add a desktop shortcut, then finish.
 
@@ -23,6 +23,13 @@ To uninstall: *Settings → Apps*, or the "Uninstall" entry in the Start menu.
 
 ## Releases
 
-Each release lists what changed. If your network blocks the download CDN but allows
-`github.com`, `git clone` this repository and run the installer from the `releases/`
-folder.
+Each release on the [Releases](../../releases) page lists what changed and carries the
+installer. To check a download, compare its SHA-256 (PowerShell:
+`Get-FileHash CircuitDesignAssistant-Setup-vX.Y.Z.exe`) with `releases/SHA256SUMS.txt`.
+
+## Reporting issues
+
+Found a bug or have an idea? In the app, use **Help > Report an Issue** (or the toolbar
+button): it opens a pre-filled form here with the version you use. You can also open
+an [issue](../../issues/new/choose) directly; please state the version
+(Help > Report an Issue shows it).
