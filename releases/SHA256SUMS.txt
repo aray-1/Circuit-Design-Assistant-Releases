@@ -1,3 +1,4 @@
 10a1c1aab0e1420d23b096abe089a21a6786b3ed5c37d79a018aba638eefe860 *CircuitDesignAssistant-Setup-v0.1.0.exe
 f067302d72580f88ef94993a414771b0211ea50e952ff8c1a049c923acd447c9 *CircuitDesignAssistant-Setup-v0.2.0.exe
 363f5d02d8f1064baa843063616eb42291518e27e414e0d49518a5b2e536f707 *CircuitDesignAssistant-Setup-v0.3.0.exe
+972a4c5766cd24a1bc1762c0cfc707230651c075323e69093c61bb56a3959b67 *CircuitDesignAssistant-Setup-v0.4.0.exe
